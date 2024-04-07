@@ -1,0 +1,106 @@
+.logo-icon {
+  width: 160px;
+  height: 25px;
+}
+
+.navbar-toggler {
+  border: none; /* Remove border */
+  background-color: transparent; /* Transparent background */
+}
+
+/* Styling for the navbar toggler icon */
+.navbar-toggler-icon {
+  background-color: white; /* White color for the toggler icon */
+  border-color: white;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-toggler {
+      margin-left: auto;
+  }
+  .navbar-brand {
+      margin-right: auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .d-flex.align-items-start {
+    width: 100vw !important; /* Set width to 100% for full responsive page width */
+    top:90%
+  }
+}
+
+/* CSS for screens wider than 768px */
+@media (min-width: 769px) {
+  .d-flex.align-items-start {
+    bottom: 20px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      margin-top: 290px; /* Adjust the value according to your preference */
+  }
+  .container:nth-child(2) {
+    margin-top: 0px; /* Adjust the value for the second container */
+    /* margin-block: auto; */
+}
+}
+
+
+
+@media (max-width: 767px) {
+  .content-container {
+      text-align: center;
+  }
+}
+
+
+.plus-icon{
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width: 1200px) {
+  .col-8 {
+      flex: 0 0 100% !important; /* Force column to take full width */
+      max-width: 100% !important; /* Force column to take full width */
+  }
+ 
+}
+
+@media (max-width: 575.98px) {
+  .col-8 {
+      flex: 0 0 83.33333% !important; /* Set column width to 83.33333% */
+      max-width: 83.33333% !important; /* Set max width to 83.33333% */
+      margin-left: auto; /* Center the column */
+      margin-right: auto; /* Center the column */
+  }
+}
+
+@media (max-width: 768px) {
+  .line-icon {
+      margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container3 {
+    margin-left: 20px;
+    display: grid;
+  }
+}
+
+@media (max-width: 768px) {
+  .line-icon {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
